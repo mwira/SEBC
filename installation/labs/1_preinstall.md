@@ -25,18 +25,19 @@ For The Installation Lab  The following EC2
 4. Disable transparent hugepage support
     Solution
     <code>echo never > /sys/kernel/mm/transparent_hugepage/enabled</code>
-    permanently address
+    permanently disable it by updating
+
     PNG
     Instance1
-    <center> <img src="png/SEBC1_MWPRE124.png"/> </center>
+    <center> <img src="../png/SEBC1_MWPRE124.png"/> </center>
     Instance2
-    <center> <img src="png/SEBC2_MWPRE124.png"/> </center>
+    <center> <img src="../png/SEBC2_MWPRE124.png"/> </center>
     Instance3
-    <center> <img src="png/SEBC3_MWPRE124.png"/> </center>
+    <center> <img src="../png/SEBC3_MWPRE124.png"/> </center>
     Instance4
-    <center> <img src="png/SEBC4_MWPRE124.png"/> </center>
+    <center> <img src="../png/SEBC4_MWPRE124.png"/> </center>
     Instance5
-    <center> <img src="png/SEBC5_MWPRE124.png"/> </center>
+    <center> <img src="../png/SEBC5_MWPRE124.png"/> </center>
 
 
 
@@ -45,15 +46,15 @@ For The Installation Lab  The following EC2
     </code>ifconfig -a</code>
     PNG
     Instance1
-    <center> <img src="png/SEBC1_MWPRE5.png"/> </center>
+    <center> <img src="../png/SEBC1_MWPRE5.png"/> </center>
     Instance2
-    <center> <img src="png/SEBC2_MWPRE5.png"/> </center>
+    <center> <img src="../png/SEBC2_MWPRE5.png"/> </center>
     Instance3
-    <center> <img src="png/SEBC3_MWPRE5.png"/> </center>
+    <center> <img src="../png/SEBC3_MWPRE5.png"/> </center>
     Instance4
-    <center> <img src="png/SEBC4_MWPRE5.png"/> </center>
+    <center> <img src="../png/SEBC4_MWPRE5.png"/> </center>
     Instance5
-    <center> <img src="png/SEBC5_MWPRE5.png"/> </center>
+    <center> <img src="../png/SEBC5_MWPRE5.png"/> </center>
 
 6. Show that forward and reverse host lookups are correctly resolved
   * For `/etc/hosts`, use `getent`
@@ -63,15 +64,15 @@ For The Installation Lab  The following EC2
     <code>nslookup localhost</code>
     PNG
     Instance1
-    <center> <img src="png/SEBC1_MWPRE6.png"/> </center>
+    <center> <img src="../png/SEBC1_MWPRE6.png"/> </center>
     Instance2
-    <center> <img src="png/SEBC2_MWPRE6.png"/> </center>
+    <center> <img src="../png/SEBC2_MWPRE6.png"/> </center>
     Instance3
-    <center> <img src="png/SEBC3_MWPRE6.png"/> </center>
+    <center> <img src="../png/SEBC3_MWPRE6.png"/> </center>
     Instance4
-    <center> <img src="png/SEBC4_MWPRE6.png"/> </center>
+    <center> <img src="../png/SEBC4_MWPRE6.png"/> </center>
     Instance5
-    <center> <img src="png/SEBC5_MWPRE6.png"/> </center>
+    <center> <img src="../png/SEBC5_MWPRE6.png"/> </center>
 
 
 7. Show the <code>nscd</code> service is running
@@ -89,3 +90,13 @@ For The Installation Lab  The following EC2
     <code>systemctl start ntpd.service</code>
     <code>systemctl enable ntpd.service</code>
     PNG
+    Instance1
+    <center> <img src="../png/SEBC1_MWPRE78.png"/> </center>
+    Instance2
+    <center> <img src="../png/SEBC2_MWPRE78.png"/> </center>
+    Instance3
+    <center> <img src="../png/SEBC3_MWPRE78.png"/> </center>
+    Instance4
+    <center> <img src="../png/SEBC4_MWPRE78.png"/> </center>
+    Instance5
+    <center> <img src="../png/SEBC5_MWPRE78.png"/> </center>
