@@ -4,7 +4,7 @@
    Using AWS
 2. List your instances by IP address and DNS name (don't use /etc/hosts for this) <br/>
     Snapshot of new instances
-    <center> <img src="../png/SEBC1_MWPRE124.png"/> </center>   
+    <center> <img src="other/awscapture.png"/> </center>   
   ```  
   SEBCC1
     ec2-13-229-69-190.ap-southeast-1.compute.amazonaws.com
