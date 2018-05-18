@@ -1,9 +1,11 @@
 commands
 <br/>```
+json
 time sudo -u groot hadoop jar /opt/cloudera/parcels/CDH/jars/hadoop-examples.jar teragen -Ddfs.blocksize=64m -Dmapreduce.map.memory.mb=1024 -Dmapred.map.tasks=40 50000000 /user/groot/tgen
 ```
 <br/>Time Result
 <br/>```
+json
 real	1m20.297s
 user	0m5.595s
 sys	0m0.360s
@@ -11,6 +13,7 @@ sys	0m0.360s
 <br/>
 check result on ls and FSCK<br/>
 ```
+json
 hdfs dfs -ls /user/groot/tgen
 Found 41 items
 -rw-r--r--   3 groot supergroup          0 2018-05-18 05:42 /user/groot/tgen/_SUCCESS
